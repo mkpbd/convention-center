@@ -13,6 +13,9 @@
       crossorigin="anonymous"
     />
 
+    <!-- google fonts include -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <!-- bootstrap link -->
     <link rel="stylesheet" href="css/bootstrap.css" />
 
@@ -23,9 +26,11 @@
         <!-- header area start -->
             <header class="header-area">
                 <div class="container">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-light">
                       
-                          <a class="navbar-brand" href="#">Navbar</a>
+                          <a class="navbar-brand" href="#">
+                              <h4>MK Convention Center</h4>
+                          </a>
                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                           </button>
@@ -35,22 +40,18 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="#">About Us</a>
                               </li>
-                              <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Dropdown
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                              </li>
+                         
                               <li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a>
+                                <a class="nav-link" href="#">Contact</a>
                               </li>
+                         
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Subscribe</a>
+                              </li>
+                         
+                            
                             </ul>
                           
                           </div>
@@ -59,6 +60,63 @@
 
                 </div>
             </header>
+        <!-- caurousal area start -->
+
+        <section class="carousel-area my-4">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/banner.png" class="w-100" alt="...">
+                    <div class="carousel-caption  mb-4 w-50 mx-md-auto">
+                      <h5 class="slider_title">The perfect venue for your
+                        next event</h5>
+                      <p class="lead">When organizing an event, you're confronted with many decisions, but choosing the right venue and location is the one decision that will have the largest impact on your event. Everything from the date of the event, speaker lineups, </p>
+                      <a href="#" class="btn btn-lg btn-secondary">Book now</a>
+                    </div>
+                  </div>
+                 
+               
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <main class="main-area my-5">
+            <!-- Every moment is Precious area -->
+            <section class="every-momnet-area">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-sm-6">
+                            <img class="img-fluid" src="images/wedding.png" alt="">
+                        </div>
+                        <div class="col-sm-6 d-flex align-items-center">
+                            <div class="every-monent-group-text">
+                                <h3>Every moment is Precious </h3>
+                                <p>Book a venue at least 8 months in advance so that you will have enough time to plan other critical things, such as securing great speakers, creating an event program and website, starting ticket sales, engaging with attendees, and more.</p>
+                                <a href="#" class="btn btn-lg btn-secondary">Explore our album</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+       
+
+        
+
     <!-- bootstrap bundle js include -->
     <script src="js/bootstrap.bundle.js"></script>
   </body>
