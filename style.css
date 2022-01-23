@@ -6,3 +6,39 @@ body{
     font-weight: 600;
     font-size: 48px;
 }
+.robot-font{
+    font-family: 'Roboto', sans-serif;
+}
+
+i.fas.fa-check {
+    background: #edecf9;
+    padding: 4px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color:#5243C2;
+}
+
+.card-primary-color{
+    color:#231D4F;
+}
+.choise-plane{
+    color:#3F87F5;
+}
+.btn-choise{
+    background-color: #F496D1;
+}
+ul.list-group li{
+    font-size: 15px;
+}
+.bg-none .list-group-item, .bg-none{
+    background-color: transparent;
+}
+.badge-right{
+    right: 25px;
+    font-size: 10px;
+    font-weight: normal;
+    
+}
+.card-round{
+    border-radius: 25px;
+}
