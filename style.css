@@ -42,3 +42,8 @@ ul.list-group li{
 .card-round{
     border-radius: 25px;
 }
+
+.client-font-size{
+    font-size:14px;
+    font-family: 'Poppins';
+}
