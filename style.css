@@ -71,3 +71,11 @@ ul.list-group li{
 
    
 }
+
+
+.toast-width{
+    width: 300px;
+    top:160px !important;
+    border-left: 8px solid #3F87F5 !important;
+    
+}
