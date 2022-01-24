@@ -69,6 +69,7 @@ ul.list-group li{
         height: 600px;
     }
 
+    
    
 }
 
@@ -94,4 +95,15 @@ ul.list-group li{
 .carousel-group {
     background: rgba(000,000, 000, .1);
     padding: 20px;
+}
+
+@media (max-width:600px) {
+    .order-by-flex {
+        order: 3 !important;
+    }
+
+    .middle{
+        margin: 0 auto;
+        text-align: center;
+    }
 }
