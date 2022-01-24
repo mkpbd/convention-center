@@ -52,3 +52,22 @@ ul.list-group li{
     background-image: linear-gradient(#FF589B, #FF136F);
     color: #fff;
 }
+
+.carousel-item img{
+    height: 600px;
+}
+   
+@media (max-width:991px) {
+    .carousel-group h5{
+        font-size: 20px;
+    }
+
+    .carousel-group p{
+        font-size: 12px;
+    }
+    .carousel-item img{
+        height: 600px;
+    }
+
+   
+}
