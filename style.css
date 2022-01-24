@@ -83,3 +83,10 @@ ul.list-group li{
 .bg-button-color{
     background-color: #3F87F5;
 }
+
+.button-hover{
+    transition: .5s linear;
+}
+.button-hover:hover{
+    background-color: rgba(142, 204, 255, 0.39) !important;
+}
