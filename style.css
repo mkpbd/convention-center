@@ -90,3 +90,8 @@ ul.list-group li{
 .button-hover:hover{
     background-color: rgba(142, 204, 255, 0.39) !important;
 }
+
+.carousel-group {
+    background: rgba(000,000, 000, .1);
+    padding: 20px;
+}
